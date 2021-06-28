@@ -1,9 +1,11 @@
-import './App.css';
+import './App.scss';
+
+import HomePage from './pages/homepage/homepage.component';
 
 function App() {
   return (
     <div className="App">
-      Hello World!
+      <HomePage />
     </div>
   );
 }
