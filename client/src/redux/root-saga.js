@@ -9,6 +9,7 @@ export default function* rootSaga() {
     yield all([
         call(fetchCollectionsStart),
         call(userSagas),
-        call(cartSagas)
+        call(cartSagas),
+        call(shopSagas)
     ])
 }
